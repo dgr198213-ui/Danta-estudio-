@@ -9,7 +9,7 @@ const QR_PATTERN_MINI = [
 // que se ofrece al final, coherente con el foco en el servicio dedicado.
 export default function DigitalReel() {
   return (
-    <section className="max-w-[1200px] mx-auto px-8 pb-28">
+    <section className="pb-28">
       <div className="grid grid-cols-[auto_1fr_auto] items-center gap-7 border border-ink/10 rounded p-7">
         <div className="w-11 h-11 bg-ink p-1 rounded grid grid-cols-4 grid-rows-4 gap-px shrink-0">
           {QR_PATTERN_MINI.flat().map((on, i) => (

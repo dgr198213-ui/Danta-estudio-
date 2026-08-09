@@ -25,7 +25,7 @@ const STEPS = [
 
 export default function Process() {
   return (
-    <section className="max-w-[1200px] mx-auto px-8 py-24 border-t border-ink/10">
+    <section className="py-24 border-t border-ink/10">
       <div className="max-w-[640px] mb-13">
         <Eyebrow>Cómo trabajamos contigo</Eyebrow>
         <h2 className="font-display font-semibold text-[clamp(1.9rem,3.2vw,2.6rem)] leading-tight max-w-[14ch] mb-3.5">

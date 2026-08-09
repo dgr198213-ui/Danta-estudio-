@@ -9,7 +9,7 @@ const PRINCIPLES = [
 
 export default function Principles() {
   return (
-    <section className="max-w-[1200px] mx-auto px-8 pt-22 pb-10">
+    <section className="pt-22 pb-10">
       <div className="mb-12">
         <div className="font-mono text-[0.72rem] tracking-[0.14em] uppercase text-brass mb-3 flex items-center gap-2.5">
           <span className="w-[22px] h-px bg-brass" />

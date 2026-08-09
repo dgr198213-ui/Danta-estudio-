@@ -1,5 +1,4 @@
-import Nav from '@/components/Nav';
-import Hero from '@/components/Hero';
+import DantaHero from '@/components/DantaHero';
 import Story from '@/components/Story';
 import Founder from '@/components/Founder';
 import Principles from '@/components/Principles';
@@ -11,17 +10,18 @@ import DigitalReel from '@/components/DigitalReel';
 export default function Home() {
   return (
     <main className="relative z-10">
+      {/* El nuevo DantaHero incluye su propia navegación y estructura de Hero */}
+      <DantaHero />
+      
       <div className="max-w-[1200px] mx-auto px-8">
-        <Nav />
-        <Hero />
+        <Story />
+        <Founder />
+        <Principles />
+        <Process />
+        <Rsvp />
+        <Timeline />
+        <DigitalReel />
       </div>
-      <Story />
-      <Founder />
-      <Principles />
-      <Process />
-      <Rsvp />
-      <Timeline />
-      <DigitalReel />
     </main>
   );
 }

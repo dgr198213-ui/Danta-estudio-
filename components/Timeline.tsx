@@ -14,7 +14,7 @@ const EVENTS = [
 
 export default function Timeline() {
   return (
-    <section className="max-w-[1200px] mx-auto px-8 py-24 md:py-36 border-t border-ink/10">
+    <section className="py-24 md:py-36 border-t border-ink/10">
       <div className="max-w-[640px] mb-14">
         <Eyebrow>El gran día</Eyebrow>
         <h2 className="font-display font-semibold text-[clamp(1.9rem,3.2vw,2.6rem)] leading-tight mb-4">

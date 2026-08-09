@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+<circle cx="150" cy="150" r="130" fill="#F4EFE6" stroke="#651F2A" stroke-width="4"/>
+<circle cx="150" cy="150" r="103" fill="none" stroke="#651F2A" stroke-width="2"/>
+<text x="150" y="95" text-anchor="middle" fill="#651F2A" font-family="Georgia, serif" font-size="42" font-style="italic">Danta</text>
+<circle cx="150" cy="155" r="48" fill="#171717"/>
+<text x="150" y="164" text-anchor="middle" fill="#651F2A" font-family="monospace" font-size="20" font-weight="700">&lt;/&gt;</text>
+<text x="150" y="225" text-anchor="middle" fill="#651F2A" font-family="Georgia, serif" font-size="34" font-style="italic">Estudio</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 100" role="img" aria-labelledby="title">
+<title>Danta Estudio</title>
+<g fill="none" stroke="#651F2A" stroke-width="3">
+  <ellipse cx="110" cy="50" rx="96" ry="43"/>
+</g>
+<text x="110" y="43" text-anchor="middle" fill="#651F2A" font-family="Georgia, serif" font-size="39" font-style="italic">Danta</text>
+<text x="110" y="72" text-anchor="middle" fill="#651F2A" font-family="Georgia, serif" font-size="20">Estudio</text>
+</svg>

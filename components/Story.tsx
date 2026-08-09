@@ -2,7 +2,7 @@ import Eyebrow from './Eyebrow';
 
 export default function Story() {
   return (
-    <section id="historia" className="max-w-[1200px] mx-auto px-8 py-24 border-t border-ink/10">
+    <section id="historia" className="py-24 border-t border-ink/10">
       <div className="grid md:grid-cols-[0.85fr_1.15fr] gap-18 items-center">
         <div className="flex justify-center order-first">
           <div
