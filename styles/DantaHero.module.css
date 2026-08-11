@@ -37,7 +37,7 @@
 }
 
 .brand { justify-self: start; display: inline-flex; align-items: center; }
-.logo { width: 82px; height: auto; display: block; object-fit: contain; }
+.logo { width: 62px; height: auto; display: block; object-fit: contain; }
 
 .nav { display: flex; align-items: center; justify-content: center; gap: 28px; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; }
 .nav a, .headerCta, .primaryCta, .secondaryCta { color: inherit; text-decoration: none; }
@@ -171,7 +171,7 @@
   border: 1px solid rgba(23,23,23,.06);
 }
 
-.tapeMark { width: 26px; height: 26px; margin-bottom: 10px; opacity: .85; }
+.tapeMark { width: 34px; height: 34px; margin-bottom: 10px; opacity: .92; }
 
 .tapeNote p {
   margin: 0;

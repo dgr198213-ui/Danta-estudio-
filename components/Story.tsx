@@ -6,9 +6,9 @@ export default function Story() {
       <div className="grid md:grid-cols-[0.85fr_1.15fr] gap-18 items-center">
         <div className="flex justify-center order-first">
           <img
-            src="/brand/danta-seal.svg"
+            src="/brand/danta-seal-real.png"
             alt="Sello Danta Estudio — Calle Mayor, Alcalá de Henares"
-            className="w-52 h-52"
+            className="w-56 h-auto"
           />
         </div>
 

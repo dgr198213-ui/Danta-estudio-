@@ -8,7 +8,7 @@ export default function DantaHero() {
 
       <header className={styles.header}>
         <Link href="/" className={styles.brand} aria-label="Danta Estudio — inicio">
-          <img src="/brand/danta-logo.svg" alt="Danta Estudio" className={styles.logo} />
+          <img src="/brand/danta-seal-real.png" alt="Danta Estudio" className={styles.logo} />
         </Link>
 
         <nav className={styles.nav} aria-label="Navegación principal">
@@ -94,7 +94,7 @@ export default function DantaHero() {
 
           <div className={styles.tapeNote}>
             <span className={styles.tapeStrip} />
-            <img src="/brand/danta-mark.svg" alt="" className={styles.tapeMark} />
+            <img src="/brand/danta-seal-real.png" alt="" className={styles.tapeMark} />
             <p>
               Historias que
               <br />
