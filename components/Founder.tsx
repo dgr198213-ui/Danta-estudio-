@@ -1,14 +1,14 @@
-// El legado de Domingo — deliberadamente distinto al resto de la web:
-// panel oscuro, como un negativo, para marcar el origen filosófico de Danta.
+// El legado de Domingo — panel oscuro, deliberadamente distinto al resto,
+// como un negativo, para marcar el origen filosófico de Danta Estudio.
 export default function Founder() {
   return (
-    <section className="bg-ink py-24 px-8">
+    <section id="legado" className="bg-ink py-24 px-8">
       <div className="max-w-[620px] mx-auto text-center">
         <div className="font-mono text-[0.7rem] tracking-[0.14em] uppercase text-brass mb-6.5">
           El legado de Domingo
         </div>
 
-        <p className="font-display italic font-medium text-[clamp(1.3rem,2.6vw,1.65rem)] leading-relaxed text-paper">
+        <p className="font-display italic text-[clamp(1.3rem,2.6vw,1.65rem)] leading-relaxed text-paper">
           &quot;Mi abuelo trabajaba con negativos, luz y pinturas pastel. Nosotros trabajamos
           con píxeles, código y tecnología. Pero ambos hacemos algo parecido: cuidar una
           historia que alguien ha decidido confiarnos.&quot;

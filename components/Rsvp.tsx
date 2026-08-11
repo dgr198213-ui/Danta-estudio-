@@ -24,11 +24,11 @@ export default function Rsvp({ siteId }: { siteId?: string }) {
   }
 
   return (
-    <section className="py-24 border-t border-ink/10">
+    <section id="rsvp" className="max-w-[1200px] mx-auto px-8 py-24 border-t border-ink/10">
       <div className="grid md:grid-cols-[1fr_0.95fr] gap-18 items-center">
         <div>
           <Eyebrow>Confirmar asistencia</Eyebrow>
-          <h2 className="font-display font-semibold text-[clamp(1.9rem,3.2vw,2.6rem)] leading-tight max-w-[12ch] mb-5">
+          <h2 className="font-display text-[clamp(1.9rem,3.2vw,2.6rem)] leading-tight max-w-[12ch] mb-5">
             ¿Nos acompañas?
           </h2>
           <p className="font-body text-[1.08rem] leading-loose text-ink-soft max-w-[44ch]">

@@ -211,9 +211,9 @@ export default function IntakePage() {
           padding: 10px 12px;
           font-family: 'Newsreader', serif;
           font-size: 0.98rem;
-          color: #24201B;
+          color: #171717;
         }
-        .input:focus { outline: none; border-color: #7A1F2B; }
+        .input:focus { outline: none; border-color: #651F2A; }
       `}</style>
     </main>
   );

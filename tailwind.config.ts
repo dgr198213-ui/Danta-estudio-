@@ -5,19 +5,23 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        paper: '#EDE3CC',
-        'paper-dark': '#E2D3AC',
-        ink: '#24201B',
-        'ink-soft': '#4A4238',
-        burgundy: '#7A1F2B',
-        'burgundy-deep': '#5C1620',
+        paper: '#F4EFE6',
+        'paper-deep': '#E9E0D4',
+        white: '#FFFDF8',
+        ink: '#171717',
+        'ink-soft': '#4B4B47',
+        burgundy: '#651F2A',
+        'burgundy-deep': '#4A1620',
+        // Acentos heredados de la historia (no del sistema 2.0 base):
+        // brass = el latón del sello real; pastel = el lápiz pastel de los retoques.
+        // Se usan con moderación, solo donde tienen justificación narrativa.
         brass: '#A9803E',
         pastel: '#D98C7B',
       },
       fontFamily: {
-        display: ['var(--font-fraunces)', 'serif'],
+        display: ['Georgia', 'Times New Roman', 'serif'],
         body: ['var(--font-newsreader)', 'serif'],
-        mono: ['var(--font-jetbrains)', 'monospace'],
+        mono: ['var(--font-jetbrains)', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
       },
       keyframes: {
         draw: {

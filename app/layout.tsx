@@ -1,13 +1,6 @@
 import type { Metadata } from 'next';
-import { Fraunces, Newsreader, JetBrains_Mono } from 'next/font/google';
+import { Newsreader, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
-
-const fraunces = Fraunces({
-  subsets: ['latin'],
-  variable: '--font-fraunces',
-  style: ['normal', 'italic'],
-  weight: ['400', '500', '600'],
-});
 
 const newsreader = Newsreader({
   subsets: ['latin'],
@@ -23,15 +16,15 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Danta — El mismo cuidado de siempre, ahora en digital',
+  title: 'Danta Estudio — La misma dedicación. Otra forma de crear.',
   description:
-    'Crea la web de tu boda con Danta: tres generaciones de Alcalá de Henares cuidando cada instante, ahora en digital.',
+    'Webs de boda personalizadas, diseñadas desde cero para contar vuestra historia. Danta Estudio, Alcalá de Henares.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es" className={`${fraunces.variable} ${newsreader.variable} ${jetbrains.variable}`}>
-      <body className="font-body text-ink min-h-screen overflow-x-hidden">{children}</body>
+    <html lang="es" className={`${newsreader.variable} ${jetbrains.variable}`}>
+      <body className="font-body text-ink min-h-screen overflow-x-hidden bg-paper">{children}</body>
     </html>
   );
 }

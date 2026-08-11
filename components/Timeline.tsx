@@ -14,10 +14,10 @@ const EVENTS = [
 
 export default function Timeline() {
   return (
-    <section className="py-24 md:py-36 border-t border-ink/10">
+    <section className="max-w-[1200px] mx-auto px-8 py-24 md:py-36 border-t border-ink/10">
       <div className="max-w-[640px] mb-14">
         <Eyebrow>El gran día</Eyebrow>
-        <h2 className="font-display font-semibold text-[clamp(1.9rem,3.2vw,2.6rem)] leading-tight mb-4">
+        <h2 className="font-display text-[clamp(1.9rem,3.2vw,2.6rem)] leading-tight mb-4">
           Cada momento, en su sitio
         </h2>
         <p className="font-body text-[1.08rem] leading-relaxed text-ink-soft">
@@ -31,7 +31,7 @@ export default function Timeline() {
           <div key={ev.time} className={`relative ${i === EVENTS.length - 1 ? '' : 'pb-9'}`}>
             <span className="absolute -left-8 top-1 w-[9px] h-[9px] rounded-full bg-burgundy" />
             <div className="font-mono text-[0.72rem] tracking-wide text-brass mb-1">{ev.time}</div>
-            <div className="font-display italic font-medium text-[1.2rem] mb-1">{ev.title}</div>
+            <div className="font-display italic text-[1.2rem] mb-1">{ev.title}</div>
             <div className="font-body text-[0.96rem] text-ink-soft max-w-[46ch]">{ev.desc}</div>
             {ev.pin && (
               <div className="inline-flex items-center gap-1.5 font-mono text-[0.7rem] text-ink-soft mt-1.5">
