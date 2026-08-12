@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="danta-seal-title">
+  <title id="danta-seal-title">Sello Danta Estudio</title>
+  <defs>
+    <path id="topArc" d="M 34 116 A 76 76 0 0 1 186 116" fill="none"/>
+    <path id="bottomArc" d="M 44 148 A 66 66 0 0 0 176 148" fill="none"/>
+  </defs>
+  <circle cx="110" cy="110" r="98" fill="none" stroke="#651F2A" stroke-width="1.2" opacity="0.9"/>
+  <circle cx="110" cy="110" r="92" fill="none" stroke="#651F2A" stroke-width="0.6" opacity="0.5"/>
+  <circle cx="26" cy="110" r="3" fill="#651F2A"/>
+  <circle cx="194" cy="110" r="3" fill="#651F2A"/>
+
+  <text font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="30" fill="#651F2A">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">Danta</textPath>
+  </text>
+  <text font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="24" fill="#651F2A">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">Estudio</textPath>
+  </text>
+
+  <g transform="translate(110,112)">
+    <circle r="34" fill="none" stroke="#651F2A" stroke-width="1"/>
+    <path d="M0 0 L22 -13 A22 22 0 0 1 22 13 Z" fill="#171717"/>
+    <path d="M0 0 L-13 22 A22 22 0 0 1 -22 -13 Z" fill="#171717"/>
+    <path d="M0 0 L-13 -22 A22 22 0 0 1 13 -22 Z" fill="#171717"/>
+    <text text-anchor="middle" dy="5" fill="#651F2A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700">&lt;/&gt;</text>
+  </g>
+</svg>
