@@ -5,8 +5,14 @@ const PANELS = ['Bienvenidos', 'Historia', 'El gran día', 'RSVP', 'Carrete Digi
 
 export default function ExampleReal() {
   return (
-    <section id="ejemplo" className="bg-burgundy text-paper">
-      <div className="max-w-[1200px] mx-auto px-8 py-20 grid md:grid-cols-[0.9fr_1.6fr] gap-12 items-center">
+    <section id="ejemplo" className="relative bg-burgundy text-paper overflow-hidden">
+      <img
+        src="/brand/danta-seal-real.png"
+        alt=""
+        aria-hidden="true"
+        className="pointer-events-none select-none absolute -left-16 -bottom-20 w-[380px] max-w-none opacity-[0.07] grayscale invert"
+      />
+      <div className="relative max-w-[1200px] mx-auto px-8 py-20 grid md:grid-cols-[0.9fr_1.6fr] gap-12 items-center">
         <div>
           <div className="font-mono text-[0.68rem] tracking-[0.14em] uppercase text-paper/60 mb-4">
             Ejemplo real

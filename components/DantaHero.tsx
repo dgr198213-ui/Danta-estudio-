@@ -72,29 +72,14 @@ export default function DantaHero() {
         <div className={styles.heroVisual} aria-hidden="true">
           <span className={styles.verticalTag}>ARCHIVO · 01</span>
 
-          <div className={styles.filmFrame}>
-            <div className={styles.filmTop}>
-              <span>KODAK 400TX</span>
-              <span>43</span>
-            </div>
-            <div className={styles.sprocketsCol}>
-              {Array.from({ length: 7 }).map((_, i) => <span key={i} />)}
-            </div>
-            <div className={styles.sprocketsCol}>
-              {Array.from({ length: 7 }).map((_, i) => <span key={i} />)}
-            </div>
-            <div className={styles.filmPhoto}>
-              <span>espacio para fotografía</span>
-            </div>
-            <div className={styles.filmBottom}>
-              <span>▶ 12</span>
-              <span>→</span>
-            </div>
+          <div className={styles.sealStage}>
+            <span className={styles.sealGlow} />
+            <span className={styles.sealRing} />
+            <img src="/brand/danta-seal-real.png" alt="" className={styles.sealBig} />
           </div>
 
           <div className={styles.tapeNote}>
             <span className={styles.tapeStrip} />
-            <img src="/brand/danta-seal-real.png" alt="" className={styles.tapeMark} />
             <p>
               Historias que
               <br />

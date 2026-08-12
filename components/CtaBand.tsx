@@ -1,7 +1,13 @@
 export default function CtaBand() {
   return (
-    <section className="bg-ink text-paper">
-      <div className="max-w-[1200px] mx-auto px-8 py-24 text-center">
+    <section className="relative bg-ink text-paper overflow-hidden">
+      <img
+        src="/brand/danta-seal-real.png"
+        alt=""
+        aria-hidden="true"
+        className="pointer-events-none select-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[620px] max-w-none opacity-[0.045] grayscale invert"
+      />
+      <div className="relative max-w-[1200px] mx-auto px-8 py-24 text-center">
         <div className="font-mono text-[0.68rem] tracking-[0.14em] uppercase text-brass mb-5">
           ¿Empezamos?
         </div>

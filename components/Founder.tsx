@@ -3,8 +3,14 @@
 // y los hechos documentados por hemeroteca (ficha, mono) — nunca mezclados.
 export default function Founder() {
   return (
-    <section id="legado" className="bg-ink py-24 px-8">
-      <div className="max-w-[980px] mx-auto">
+    <section id="legado" className="relative bg-ink py-24 px-8 overflow-hidden">
+      <img
+        src="/brand/danta-seal-real.png"
+        alt=""
+        aria-hidden="true"
+        className="pointer-events-none select-none absolute -right-24 -top-24 w-[480px] max-w-none opacity-[0.05] grayscale invert"
+      />
+      <div className="relative max-w-[980px] mx-auto">
         <div className="grid md:grid-cols-[0.85fr_1.15fr] gap-12 items-center">
           <div>
             <img
