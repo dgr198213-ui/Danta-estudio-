@@ -29,7 +29,7 @@ export default function Founder() {
             </div>
 
             <p className="font-display italic text-[clamp(1.15rem,2.2vw,1.4rem)] leading-relaxed text-paper">
-              &quot;Mi abuelo trabajaba con negativos, luz y pinturas pastel. Nosotros
+              &quot;Mi abuelo trabajaba con negativos, luz and pinturas pastel. Nosotros
               trabajamos con píxeles, código y tecnología. Pero ambos hacemos algo parecido:
               cuidar una historia que alguien ha decidido confiarnos.&quot;
             </p>

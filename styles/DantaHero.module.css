@@ -192,7 +192,7 @@
   .nav { display: none; }
   .logo { width: 68px; }
   .verticalTag { display: none; }
-  .tapeNote { right: -8px; bottom: -22px; width: 130px; padding: 16px 12px 14px; }
+  .tapeNote { right: 50%; transform: translateX(50%) rotate(2deg); bottom: -20px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
